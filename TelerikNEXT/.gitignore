@@ -24,3 +24,6 @@ platforms/ios/Sample-TelerikNext/*
 /hooks/
 /tsconfig.json
 /references.d.ts
+.ab
+*.apk
+*.ipa
