@@ -1,4 +1,3 @@
-"use strict";
 var gestures = require("ui/gestures");
 var platform = require("platform");
 var utils = require("utils/utils");
@@ -94,4 +93,3 @@ function backSwipe(args) {
     }
 }
 exports.backSwipe = backSwipe;
-//# sourceMappingURL=session-page.js.map

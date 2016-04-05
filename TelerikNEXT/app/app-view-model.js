@@ -1,4 +1,8 @@
-"use strict";
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
 var observable = require("data/observable");
 var dialogs = require("ui/dialogs");
 var localSettings = require("application-settings");
@@ -261,7 +265,7 @@ var AppViewModel = (function (_super) {
         this.set("isSessionsPage", this.selectedViewIndex < 2);
     };
     return AppViewModel;
-}(observable.Observable));
+})(observable.Observable);
 exports.AppViewModel = AppViewModel;
 var SessionModel = (function (_super) {
     __extends(SessionModel, _super);
@@ -413,7 +417,7 @@ var SessionModel = (function (_super) {
         configurable: true
     });
     return SessionModel;
-}(observable.Observable));
+})(observable.Observable);
 exports.SessionModel = SessionModel;
 exports.appModel = new AppViewModel();
 // load other info
@@ -426,4 +430,3 @@ el.data('Info').get().then(function (data) {
     console.log("Could not load Info. Error: " + error);
     dialogs.alert(LOADING_ERROR);
 });
-//# sourceMappingURL=app-view-model.js.map

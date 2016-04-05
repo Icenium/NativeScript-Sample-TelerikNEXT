@@ -1,4 +1,3 @@
-"use strict";
 var http = require("http");
 var imageSource = require("image-source");
 var imageCache = require("ui/image-cache");
@@ -47,4 +46,3 @@ function getRoomImage(info, update) {
     });
 }
 exports.getRoomImage = getRoomImage;
-//# sourceMappingURL=officeRnDApi.js.map

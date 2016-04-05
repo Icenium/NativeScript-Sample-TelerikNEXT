@@ -1,4 +1,3 @@
-"use strict";
 var gestures = require("ui/gestures");
 var frame = require("ui/frame");
 var observable = require("data/observable");
@@ -35,4 +34,3 @@ function backSwipe(args) {
     }
 }
 exports.backSwipe = backSwipe;
-//# sourceMappingURL=map-page.js.map
