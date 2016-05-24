@@ -34,3 +34,4 @@ function backSwipe(args) {
     }
 }
 exports.backSwipe = backSwipe;
+//# sourceMappingURL=map-page.js.map
