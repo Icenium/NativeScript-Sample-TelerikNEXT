@@ -20,3 +20,4 @@ if (application.android) {
 application.mainModule = "main-page";
 // Start the application
 application.start();
+//# sourceMappingURL=app.js.map

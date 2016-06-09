@@ -46,3 +46,4 @@ function getRoomImage(info, update) {
     });
 }
 exports.getRoomImage = getRoomImage;
+//# sourceMappingURL=officeRnDApi.js.map

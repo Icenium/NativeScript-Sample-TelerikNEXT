@@ -22,7 +22,6 @@ platforms/ios/Sample-TelerikNext/*
 !platforms/ios/Sample-TelerikNext/Sample-TelerikNext-Info.plist
 
 /hooks/
-/tsconfig.json
 /references.d.ts
 .ab
 *.apk

@@ -1,8 +1,3 @@
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
 var observable = require("data/observable");
 var dialogs = require("ui/dialogs");
 var localSettings = require("application-settings");
@@ -430,3 +425,4 @@ el.data('Info').get().then(function (data) {
     console.log("Could not load Info. Error: " + error);
     dialogs.alert(LOADING_ERROR);
 });
+//# sourceMappingURL=app-view-model.js.map
