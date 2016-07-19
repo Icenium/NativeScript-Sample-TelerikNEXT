@@ -1,3 +1,4 @@
+"use strict";
 var application = require("application");
 if (application.android) {
     application.onLaunch = function (intent) {

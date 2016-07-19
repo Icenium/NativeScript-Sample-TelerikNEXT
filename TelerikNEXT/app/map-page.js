@@ -1,3 +1,4 @@
+"use strict";
 var gestures = require("ui/gestures");
 var frame = require("ui/frame");
 var observable = require("data/observable");
