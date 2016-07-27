@@ -1,3 +1,4 @@
+"use strict";
 var gestures = require("ui/gestures");
 var platform = require("platform");
 var utils = require("utils/utils");

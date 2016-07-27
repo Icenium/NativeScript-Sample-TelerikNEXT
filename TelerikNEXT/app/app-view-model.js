@@ -1,3 +1,4 @@
+"use strict";
 var observable = require("data/observable");
 var dialogs = require("ui/dialogs");
 var localSettings = require("application-settings");
@@ -137,7 +138,7 @@ function updateFavourites() {
     localSettings.setString(FAVOURITES, newValue);
 }
 var el = new everlive({
-    apiKey: 'mzacGkKPFlZUfbMq',
+    apiKey: 'jol3lgh5dzjre5hh',
     scheme: 'https'
 });
 var expandExp = {
@@ -260,7 +261,7 @@ var AppViewModel = (function (_super) {
         this.set("isSessionsPage", this.selectedViewIndex < 2);
     };
     return AppViewModel;
-})(observable.Observable);
+}(observable.Observable));
 exports.AppViewModel = AppViewModel;
 var SessionModel = (function (_super) {
     __extends(SessionModel, _super);
@@ -412,7 +413,7 @@ var SessionModel = (function (_super) {
         configurable: true
     });
     return SessionModel;
-})(observable.Observable);
+}(observable.Observable));
 exports.SessionModel = SessionModel;
 exports.appModel = new AppViewModel();
 // load other info
