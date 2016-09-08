@@ -7,3 +7,5 @@
 
 # TelerikNEXT files
 TelerikNEXT/README.md
+node_modules
+**/*.abreferences.d.ts
