@@ -13,7 +13,7 @@ function pageLoaded(args) {
     var iosFrame = frame.topmost().ios;
     if (iosFrame) {
         // Fix status bar color and nav bar vidibility
-        iosFrame.controller.view.window.backgroundColor = UIColor.blackColor();
+        iosFrame.controller.view.window.backgroundColor = UIColor.blackColor;
         iosFrame.navBarVisibility = "never";
     }
     page.bindingContext = appViewModel.appModel;
